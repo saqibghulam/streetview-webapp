@@ -1,0 +1,27 @@
+{
+  "name": "streetview-webapp",
+  "version": "1.0.0",
+  "description": "Combination of Google Maps API and other Maps API",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index",
+    "build": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19301815Pat/streetview-webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19301815Pat/streetview-webapp/issues"
+  },
+  "homepage": "https://github.com/19301815Pat/streetview-webapp#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
