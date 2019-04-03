@@ -1,13 +1,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>StreetView App</title>
+    <title>StreetView App - Baidu</title>
     <link rel="stylesheet" type="text/css" href="css/baidustyle.css" />
     <script type="text/javascript" src="scripts/baiduscript.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=yrjNXoGGbQ2tWD7NspbWjTaT7dnKdhcW"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=yrjNXoGGbQ2tWD7NspbWjTaT7dnKdhcW"></script>
   </head>
   <body>
-    <div id="baidu_maps"></div>
+    <div id="baidu_map"></div>
     <div id="baidu_pano"></div>
+    <select id="selectAPI">
+      <option value="/index.html">Google</option>
+      <option value="/tencent.html">Tencent</option>
+      <option value="/baidu.html" selected="selected">Baidu</option>
+      <option value="/daum.html">Daum</option>
+      <option value="/yandex.html">Yandex</option>
+    </select>
   </body>
 </html>

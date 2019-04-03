@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-#google_map, #google_pano {
+#yandex_map, #yandex_pano {
   float: left;
   height: 100%;
   width: 50%;
@@ -11,6 +11,5 @@ html, body {
 select {
   position: absolute;
   top: 1%;
-  left: 62%;
-  z-index: 1;
+  left: 50%;
 }

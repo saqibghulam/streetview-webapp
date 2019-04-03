@@ -17,3 +17,12 @@ function initialize() {
       });
   map.setStreetView(panorama);
 }
+window.onload = function () {
+  var selectAPI = document.getElementById('selectAPI');
+  selectAPI.onchange = function () {
+    var selectedOption = this.options[this.selectedIndex];
+    if (selectedOption.value != "") {
+      window.location.href = selectedOption.value;
+    }
+  };
+}
