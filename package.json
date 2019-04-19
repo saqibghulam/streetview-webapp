@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/19301815Pat/streetview-webapp#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"

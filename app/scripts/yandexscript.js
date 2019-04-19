@@ -8,12 +8,12 @@ window.onload = function () {
       map.panTo(latlng);
     }
 
-  	map = new ymaps.Map('yandex_map', {center: ll, zoom: 15, controls: ['zoomControl', 'fullscreenControl', 'typeSelector']});
+  	map = new ymaps.Map('yandex_map', {center: ll, zoom: 15, controls: ['zoomControl', 'typeSelector']});
     marker = new ymaps.Placemark(ll);
     map.geoObjects.add(marker);
     if (ymaps.panorama.isSupported()) {
     	ymaps.panorama.locate(ll).done(function (panoramas) {
-      	player = new ymaps.panorama.Player('yandex_pano', panoramas[0], { controls: ['zoomControl', 'fullscreenControl', 'panoramaName'], suppressMapOpenBlock: 'true' });
+      	player = new ymaps.panorama.Player('yandex_pano', panoramas[0], { controls: ['zoomControl', 'panoramaName'], suppressMapOpenBlock: 'true' });
         player.events.add('panoramachange', function (event) {
         	markMapAt(event.get('target').getPanorama().getPosition());
         });

@@ -5,14 +5,14 @@ html, body {
 }
 #daum_map, #daum_pano {
   float: left;
-  height: 100%;
-  width: 50%;
+  height: 50%;
+  width: 100%;
 }
-select {
+/* select {
   position: absolute;
   top: 1%;
   left: 50%;
-}
+} */
 
 .MapWalker {position:absolute;margin:-26px 0 0 -51px}
 .MapWalker .figure {position:absolute;width:25px;left:38px;top:-2px;
